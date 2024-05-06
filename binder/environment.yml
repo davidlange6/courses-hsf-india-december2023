@@ -16,8 +16,7 @@ dependencies:
   - lz4
   - pyarrow
   - python-xxhash
-# blocks python 3.11
-#  - rapidsai::cudf=23.02.00
+  - rapidsai::cudf=24.04.00
   - pip:
       - tensorflow==2.16.1
       - tensorrt
