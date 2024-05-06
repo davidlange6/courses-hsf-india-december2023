@@ -5,7 +5,9 @@ channels:
 dependencies:
   - python=3.11
   - cuda=12.4
-  - cudnn=8.9.6
+  - nvidia-cudnn-cu12
+# replaced by the above?  
+#- cudnn=8.9.2
   - cuda-nvcc
   - pip
 #  - emacs
