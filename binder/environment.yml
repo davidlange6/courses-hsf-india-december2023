@@ -5,7 +5,8 @@ channels:
 dependencies:
   - python=3.11
   - cuda=12.4
-  - cudnn=8.9.2
+# moved to pip  
+# - cudnn=8.9.2
   - cuda-nvcc
   - pip
 #  - emacs
@@ -18,6 +19,7 @@ dependencies:
   - python-xxhash
   - rapidsai::cudf=24.04.00
   - pip:
+      - nvidia-cudnn-cu12
       - tensorflow==2.16.1
       - tensorrt
       #- cupy
