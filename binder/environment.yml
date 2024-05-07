@@ -6,7 +6,8 @@ dependencies:
   - python=3.11
   - cuda=12.4
 # moved to pip  
-  - cudnn=8.9.2.26
+  - cudnn=8.9.7
+#  - cudnn=8.9.2.26
   - cuda-nvcc
   - pip
 #  - emacs
