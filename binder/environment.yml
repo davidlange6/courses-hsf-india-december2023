@@ -4,13 +4,10 @@ channels:
   - nvidia/label/cuda-12.4.0
 dependencies:
   - python=3.11
-  - cuda=12.4
-# moved to pip  
+  - cuda=12.4 
   - cudnn=8.9.7
-#  - cudnn=8.9.2.26
   - cuda-nvcc
   - pip
-#  - emacs
   - zstandard
   - zstd
   - clang-tools
@@ -20,11 +17,8 @@ dependencies:
   - python-xxhash
   - rapidsai::cudf=24.04.00
   - pip:
-#      - nvidia-cudnn-cu12
       - tensorflow==2.16.1
       - tensorrt
-      #- cupy
-      #-cuda11x
       - astunparse
       - awkward
       - dask
@@ -40,7 +34,7 @@ dependencies:
       - numba
       - numexpr
       - numpy
-      - pandas==1.5.3
+      - pandas
       - particle
       - protobuf
       - pycuda
