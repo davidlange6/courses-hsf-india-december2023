@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.11
   - pip
 #  - emacs - broken after install, so just remove it
   - zstandard
@@ -46,7 +46,7 @@ dependencies:
       - jax[cpu]
       - graphviz
       - dask-labextension==6.2.0
-      - tensorflow==2.15
+      - tensorflow==2.16.1
       - tensorflow-probability
       - scikit-learn
       - seaborn
