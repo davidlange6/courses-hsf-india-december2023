@@ -15,7 +15,8 @@ dependencies:
   - lz4
   - pyarrow
   - python-xxhash
-  - rapidsai::cudf=24.04.00
+  # rapids drops support for the SSL/River GPUs after this release..
+  - rapidsai::cudf=23.12.00
   - pip:
       - tensorflow==2.16.1
       - tensorrt
