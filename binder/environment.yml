@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.10
   - pip
 #  - emacs - broken after install, so just remove it
   - zstandard
