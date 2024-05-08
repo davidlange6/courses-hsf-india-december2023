@@ -3,7 +3,7 @@ channels:
   - defaults
   - nvidia/label/cuda-12.4.0
 dependencies:
-  - python=3.11
+  - python=3.10
   - cuda=12.4 
   - cudnn=8.9.7
   - cuda-nvcc
@@ -17,7 +17,7 @@ dependencies:
   - python-xxhash
   # rapids drops support for the SSL/River GPUs after this release..
   # older releases do not support python 3.11
-  #- rapidsai::cudf=24.04.00
+  - rapidsai::cudf=23.12.00
   - pip:
       - tensorflow==2.16.1
       - tensorrt
