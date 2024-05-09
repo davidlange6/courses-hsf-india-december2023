@@ -31,7 +31,8 @@ dependencies:
       - numba
       - numexpr
       - numpy
-      - pandas
+      #cudf does not support pandas 2.0 until 24.04
+      - pandas==1.5.3
       - particle
       - protobuf
       - pyarrow
