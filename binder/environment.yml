@@ -6,7 +6,8 @@ dependencies:
   - python=3.10
 #  - cuda=12.4 
 #  - cudnn=8.9.7
-  - cuda-nvcc=12.4
+#  - cuda-nvcc=12.4
+  - pycuda=12.4
   - pip
   - zstandard
   - zstd
@@ -19,8 +20,8 @@ dependencies:
   # older releases do not support python 3.11
   - rapidsai::cudf=23.12.00
   - pip:
-      - tensorflow==2.16.1
-      - tensorrt
+#      - tensorflow==2.16.1
+#      - tensorrt
       - astunparse
       - awkward
       - dask
@@ -40,7 +41,7 @@ dependencies:
       - pandas==1.5.3
       - particle
       - protobuf
-      - pycuda
+#      - pycuda
       - pybind11
       - scikit-learn
       - tables
