@@ -8,6 +8,8 @@ dependencies:
 #  - cudnn=8.9.7
   - cuda-nvcc=12.4
   - cuda-nvprof=12.4
+  - cuda-profiler-api=12.4
+  - libcurand-dev=12.4
   - pip
   - zstandard
   - zstd
