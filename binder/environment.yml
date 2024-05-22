@@ -4,9 +4,10 @@ channels:
   - nvidia/label/cuda-12.4.0
 dependencies:
   - python=3.10
-  - cuda=12.4 
-  - cudnn=8.9.7
-  - cuda-nvcc
+  - cudatoolkit=12.4
+#  - cuda=12.4 
+#  - cudnn=8.9.7
+#  - cuda-nvcc
   - pip
   - zstandard
   - zstd
