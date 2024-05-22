@@ -9,6 +9,7 @@ dependencies:
   - libcurand
   - libcurand-dev
   - cuda-minimal-build=12.4
+  - nomkl #remove the large mkl lib stuff
   - pip
   - zstandard
   - zstd
