@@ -6,7 +6,7 @@ dependencies:
   - python=3.10
 #  - cuda=12.4 
 #  - cudnn=8.9.7
-  - libcurand=12.4
+  - libcurand
   - cuda-minimal-build=12.4
   - pip
   - zstandard
