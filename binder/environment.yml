@@ -4,6 +4,7 @@ channels:
   - nvidia/label/cuda-12.4.0
 dependencies:
   - cuda-nvcc
+  - libcurand
 
  
 variables:
